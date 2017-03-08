@@ -1,0 +1,7 @@
+- hosts: srv
+  become: yes
+  roles:
+    - system_update
+    - docker
+    - portainer
+
